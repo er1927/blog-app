@@ -8,7 +8,7 @@ const posts = [
 
 export default function Home() {
   return (
-    <main className="container mx-auto px-10 mb-8 bg-gray-500">
+    <main className="container mx-auto px-10 mb-8">
       <Head>
         <title>CMS blog</title>
       </Head>
@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       </div>
       <div className='lg:col-span-4 col-span-1'>
-          <div className='lg:sticky relative top-8 bg-pink-900'>
+          <div className='lg:sticky relative top-8'>
           <PostWidget />
           <Categories />
           </div>
